@@ -11,14 +11,8 @@ public class BaseTest {
 
     protected static WebDriver driver;
     protected final Logger logger = LogManager.getLogger(BaseTest.class);
-    //protected static Browser browser = new Browser();
-
     public static WebDriver getDriver() {
         return driver;
-    }
-
-    public static void setDriver(WebDriver driver) {
-        BaseTest.driver = driver;
     }
 
     @Before
